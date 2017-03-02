@@ -1,3 +1,7 @@
+
+ 
+
+
 function initMap() {
   // Create center marker at UCSD
   var ucsd_ltlng = {lat:32.885, lng:-117.2413};
@@ -8,7 +12,7 @@ function initMap() {
     zoom: 20
   });
 
-   var marker = new google.maps.Marker({
+  var marker = new google.maps.Marker({
       position: ucsd_ltlng,
       map: map,
       title: 'UCSD'
